@@ -1,0 +1,140 @@
+.top {
+    padding: 0 5px 5px 5px;
+}
+
+.top-butt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.city {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.weather-description {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1;
+    margin: 0;
+}
+
+.weather-icon {
+    margin-right: -50%;
+    height: 100px;
+}
+
+
+.temperature {
+    font-weight: 600;
+    font-size: 50px;
+    width: auto;
+    letter-spacing: -5px;
+    margin: 10px 0;
+}
+
+.details {
+    margin-left: 170px;
+    margin-top: -30%;
+    width: 100%;
+}
+
+.parameter-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parameter {
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.parameter-value {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+/*Head*/
+header {
+    position: relative;
+    width: 100%;
+    height: 80px;
+    padding: 1.5em;
+    background-color: slategray;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 220px;
+    width: 960px;
+}
+
+.logo {
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: whitesmoke;
+    margin-left: 2em;
+    margin-bottom: 0.7em;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin: auto 60px;
+}
+
+.hede {
+    color: whitesmoke;
+    font-weight: 600;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+/*Footer*/
+footer {
+    background-color: slategray;
+    position: relative;
+    padding-top: 40px;
+    height: 150px;
+    margin-top: -15px;
+    z-index: -2;
+}
+
+.foot {
+    width: 960px;
+    list-style-type: none;
+    position: fixed;
+    left: 50%;
+    bottom: 0;
+    margin-left: -480px;
+    padding-bottom: 60px;
+    z-index: -1;
+}
+
+footer li {
+    width: 25%;
+    float: left;
+    line-height: 25px;
+}
+
+.foota {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.foota:hover {
+    text-decoration: underline;
+}
